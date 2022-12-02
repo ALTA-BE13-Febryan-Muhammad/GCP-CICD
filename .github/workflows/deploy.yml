@@ -13,12 +13,12 @@ jobs:
       - name: Connect to server using SSH
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
+          host: ${{ secrets.HOST }} #ip server
+          username: ${{ secrets.USERNAME }} #server username
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /home/febryanzainal/GCP-CICD
+            cd /home/febryanzainal/alta/GCP-CICD
             git pull origin main
             docker stop gcp-cicd-container
             docker rm gcp-cicd-container
