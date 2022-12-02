@@ -15,8 +15,8 @@ jobs:
         with:
           host: ${{ secrets.HOST }} #ip server
           username: ${{ secrets.USERNAME }} #server username
-          key: ${{ secrets.KEY }}
-          port: ${{ secrets.PORT }}
+          key: ${{ secrets.KEY }} #SSH key
+          port: ${{ secrets.PORT }} #8080
           script: |
             cd /home/febryanzainal/alta/GCP-CICD
             git pull origin main
