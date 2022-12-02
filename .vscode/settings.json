@@ -1,5 +1,5 @@
 {
     "yaml.schemas": {
-        "https://json.schemastore.org/github-workflow.json": "file:///Users/fakhryikhsanfirdaus/Documents/WORKSPACE/ALTA/GOLANG/playground/be13-api-clean-arch-gcp/.github/workflows/deploy.yml"
+        "https://json.schemastore.org/github-workflow.json": "file:///C:Users/Febryan Muhammad/Documents/ALTERRA/Tugas-Unit2/gcp-cicd/.github/workflows/deploy.yml"
     }
 }
