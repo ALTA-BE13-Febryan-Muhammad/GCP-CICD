@@ -43,7 +43,7 @@ func initConfig() *AppConfig {
 	// SECRET = os.Getenv("SECRET")
 	cnv, err := strconv.Atoi(os.Getenv("SERVER_PORT"))
 	if err != nil {
-		log.Fatal("Cannot parse DB Port variable")
+		log.Fatal("Cannot parse DB Server_Port variable")
 		return nil
 	}
 	defaultConfig.SERVER_PORT = int16(cnv)
